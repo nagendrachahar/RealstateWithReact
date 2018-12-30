@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.form input[type=date], .form input[type=text], .form input[type=email], .form input[type=number], .form select {
+    padding: 3px;
+    height: 25px;
+}
+
+#tips {
+    display: none;
+}
+
+.dataTables_filter {
+    width: 200px;
+    float: right;
+}
+
+#tablee_info {
+    padding-top: 20px;
+    float: left;
+}
+
+.dt-buttons {
+    padding: 10px 0 0 10px;
+    float: left;
+}
+
+#tablee_paginate {
+    float: right;
+}
+
+#myConfirm {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.48);
+}
+
+    #myConfirm > div {
+        width: 200px;
+        margin: 20% auto;
+        padding: 10px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.75);
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    }
+
+        #myConfirm > div > div {
+            background: white;
+            padding: 10px;
+        }
+
+    #myConfirm div p {
+        text-align: center;
+    }
+
+    #myConfirm div button {
+        width: 40%;
+        margin: 0 5%;
+    }
+
+.form fieldset {
+    border: none;
+    padding: 0px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt0 {
+    padding-top: 0px;
+}
+
+.pl0 {
+    padding-left: 0px;
+}
+
+.pr0 {
+    padding-right: 0px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.bgRed, .bgGreen, .bgYellow {
+    padding: 10px;
+    background-origin: border-box;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+}
+
+.bgRed {
+    background-color: #e08f8f;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
